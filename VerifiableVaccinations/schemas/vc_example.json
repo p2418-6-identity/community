@@ -1,6 +1,6 @@
 { "@context": [
    "https://www.w3.org/2018/credentials/v1",
-   "https://example.com/2019/vacinnation/v1"
+   "https://example.com/2019/vaccination/v1"
 ],
  "type": [
    "Credential",
@@ -13,6 +13,7 @@
     "VacinationCode": "FLUVAX"
 },
 "evidence" : [ {
+   "@type" : "http://hl7.org/fhir/R4/immunization", 
    "resourceType": "Immunization",
    "id": "example",
    "text": {
