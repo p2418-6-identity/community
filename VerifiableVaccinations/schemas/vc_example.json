@@ -1,0 +1,26 @@
+{ "@context": {
+   "/": "zdpuAqceEaefp2YLbsyVaoJk8NH47qJvomsd1WouNC1CVYTZn"
+},
+ "id": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
+ "type": [
+   "Credential",
+   "ProofOfVaccinationCredential"
+],
+ "issuer": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
+ "issued": "2017-09-23",
+ "claim": {
+    "id": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
+    "VacinationCode": 123,
+    "proof": "did:eth:0xd3382e07f2173270ef43817ab1b4e1cdeb36f23b"
+},
+ "signature": {
+ "type": "EdDsaSASignatureAuthentication2018",
+ "created": "2017-09-23T21:19:10Z",
+ "creator": "did:ipid:QmeJGfbW6bhapSfyjV5kDq5wt3h2g46Pwj15pJBVvy7jM3",
+ "message" : {
+   "/" : ""
+ }, 
+ "nonce": "598c63d6",
+ "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+ }
+}
