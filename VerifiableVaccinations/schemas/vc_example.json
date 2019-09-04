@@ -1,10 +1,9 @@
 { "@context": [
-   "https://www.w3.org/2018/credentials/v1",
-   "https://example.com/2019/vaccination/v1"
+   "https://www.w3.org/2018/credentials/v1", 
+   "https://www.w3.org/2018/credentials/examples/v1"
 ],
  "type": [
-   "Credential",
-   "ProofOfVaccinationCredential"
+   "VerifiableCredential"
 ],
  "issuer": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
  "issued": "2019-08-23T21:19:10Z",
@@ -43,7 +42,6 @@
      "reference": "Encounter/example"
    },
    "occurrenceDateTime": "2013-01-10",
-   "primarySource": true,
    "location": {
      "reference": "Location/1"
    },
@@ -118,7 +116,6 @@
        ]
      }
    ],
-   "isSubpotent": true,
    "education": [
      {
        "documentType": "253088698300010311120702",
