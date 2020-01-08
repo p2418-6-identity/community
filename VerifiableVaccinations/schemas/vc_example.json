@@ -3,13 +3,16 @@
    "https://www.w3.org/2018/credentials/examples/v1"
 ],
  "type": [
-   "VerifiableCredential"
+   "VerifiableCredential",
+   "ProofofVacinationCredential"
 ],
  "issuer": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
- "issued": "2019-08-23T21:19:10Z",
- "claim": {
-    "id": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
-    "VacinationCode": "FLUVAX"
+ "issuanceDate": "2019-08-23T21:19:10Z",
+"credentialSubject" : {
+  "id" : "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
+  "Vacination" : {
+    "VacinationCode" : "FLUVAX"
+  } 
 },
 "evidence" : [ {
    "@type" : "http://hl7.org/fhir/R4/immunization", 
