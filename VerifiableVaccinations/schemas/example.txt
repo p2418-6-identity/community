@@ -1,20 +1,4 @@
-{ "@context": [
-   "https://www.w3.org/2018/credentials/v1", 
-   "https://www.w3.org/2018/credentials/examples/v1"
-],
- "type": [
-   "VerifiableCredential",
-   "ProofofVacinationCredential"
-],
-"issuer": "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
-"issuanceDate": "2020-03-03T00:00:00Z",
-"credentialSubject" : {
-  "id" : "did:ipid:QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
-  "Vacination" : {
-    "VacinationCode" : "SARS-CoV-2"
-  } 
-},
-"evidence" : [ {
+{
    "@type" : "http://hl7.org/fhir/R4/immunization", 
    "date": "2020-03-03T00:00:00Z",
    "id": "TB8aKj16J11223rYc9O4",
@@ -147,16 +131,3 @@
      ]
    }
  }
-], 
-"credentialSchema" : {
-   "id": "https://example.org/examples/vaccination_schema.json",
-   "type": "JsonSchemaValidator2018"
-}, 
- "proof": {
-   "type": "EdDsaSASignatureAuthentication2018",
-   "created": "2019-08-23T21:19:10Z",
-   "creator": "did:ipid:QmeJGfbW6bhapSfyjV5kDq5wt3h2g46Pwj15pJBVvy7jM3", 
-   "nonce": "598c63d6",
-   "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
- }
-}

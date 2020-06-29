@@ -1,0 +1,37 @@
+{
+  "id" : "T4CTJun1HZyL7FU62PWgn3gB",
+  "wasNotGiven" : false,
+  "resourceType" : "Immunization",
+  "reported" : false,
+  "expirationDate" : "2015-06-30",
+  "lotNumber" : "UI192AA",
+  "date" : "2014-10-01",
+  "manufacturer" : {
+    "display" : "Unknown Manufacturer"
+  },
+  "vaccineCode" : {
+    "text" : "Influenza, Unspecified",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "display" : "INFLUENZA, UNSPECIFIED",
+        "code" : "88"
+      }
+    ]
+  },
+  "site" : {
+    "text" : "Left deltoid",
+    "coding" : [
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.478.2.7.10.768076.4040",
+        "display" : "Left deltoid",
+        "code" : "7"
+      }
+    ]
+  },
+  "status" : "completed",
+  "patient" : {
+    "display" : "John Doe",
+    "reference" : "https://arr01.service.vumc.org/FHIR-PRD/api/FHIR/DSTU2/Patient/abc123"
+  }
+}
